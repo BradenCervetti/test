@@ -1,0 +1,79 @@
+
+.darkBG{
+    background: #999;
+   
+}
+.darkerBG{
+    background: #666;
+}
+.darkestBG{
+    background: #444;
+}
+.seethrough{
+    background: #4443;
+    
+}
+
+li.active>a {
+    background-color: whitesmoke!important;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+body {
+ 
+    background-image: url("backgroundimagess.jpg");
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: transparent;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: aqua
+}
+.jumbotron{background-color: #1114!important;}
+    
+.nav-tabs{background-color: #999!important;}
+
+
